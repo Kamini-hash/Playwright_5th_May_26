@@ -1,0 +1,19 @@
+
+    {
+        "validLogin" : {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expect": "sucess",
+        "tag" : "@positive",
+        "check": "testtoo"
+        },
+        
+        "invalidData" : {
+        "username": "standard_user",
+        "password": "secret",
+        "expect": "fail",
+        "tag" : "@negative",
+        "check": "testtoo987"
+    }
+}
+

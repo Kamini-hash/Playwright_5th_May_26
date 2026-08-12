@@ -1,0 +1,30 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expect": "sucess",
+        "tag" : "@positive",
+        "check": "testtoo"
+    },
+        {
+        "username": "standard_user",
+        "password": "secret",
+        "expect": "fail",
+        "tag" : "@negative",
+        "check": "testtoo987"
+    },
+        {
+        "username": "user",
+        "password": "secret_sauce",
+        "expect": "fail",
+        "tag" : "@negative",
+        "check": "testtoo54"
+    },
+        {
+        "username": "standard",
+        "password": "secret",
+        "expect": "fail",
+        "tag" : "@negative",
+        "check": "testtoo123"
+    }
+]
