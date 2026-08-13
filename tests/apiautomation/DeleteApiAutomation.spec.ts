@@ -25,7 +25,8 @@ test.beforeEach(async ({request}) =>{
         data: body1
     });
 
-    console.log('===============RESPONSE================');
+    console.log('=============RESPONSE==============');
+	console.log('=============Hi Reeyansh==============');
     console.log('status       : ', response1.status());
     console.log('URL       : ', response1.statusText());
     console.log('body       : ', await response1.json());
